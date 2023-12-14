@@ -17,7 +17,7 @@ header{
     width:100%;
     top: 0;
     right: 0;
-    padding: 30px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -25,12 +25,16 @@ header{
     transition: all .50s ease
 }
 .logo{
+    padding: 10px;
     display: flex;
-    font-size: 26px;
+    letter-spacing: -5px;
+    font-size: 40px;
     align-items: center;
-    font-weight: 600;
-    font-family: fantasy; 
-    color: rgb(185, 10, 238);
+    font-weight: 800;
+    font-family: arial narrow bold;
+    color: rgb(36, 5, 77);
+    text-decoration: wavy;
+    
 }
 .nav{
     display:flex;
@@ -48,8 +52,8 @@ header{
     }
 
     section{
-        padding-top: 90px;
         padding-left: 20px;
+        padding-bottom: 40px;
     }
     .home{
         position: relative;
@@ -96,9 +100,6 @@ header{
         align-items: center;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
-    }
-    .about text{
-        padding:50px 50px;
     }
     .about-text h3{
         font-size: x-large;
@@ -153,3 +154,37 @@ header{
     .interests p span{
         color: orangered;
     }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .text-1{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color:rgb(23, 23, 233)
+    }
+    .text-1 h6{
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .text-2{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color:rgb(23, 23, 233)
+     }
+     .text-2 h7{
+        font-size: x-large;
+        font-weight: 700;
+     }
+     .contact-icons{
+        display: inline-block;
+        font-size: 25px;
+        margin-right: 20px;
+        transition: all .50s ease;
+        gap:20px;
+     }
+     
