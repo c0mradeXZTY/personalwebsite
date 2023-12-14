@@ -21,7 +21,6 @@ header{
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position:fixed;
     background: transparent;
     transition: all .50s ease
 }
@@ -98,21 +97,31 @@ header{
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+    .about text{
+        padding:50px 50px;
+    }
     .about-text h3{
         font-size: x-large;
         font-weight: 700;
-        margin-right: 10px;
     }
     .about-text h4{
         font-size: 22px;
         font-weight: 600;
         word-spacing: 5px;
-    }
+        margin-top: 10px;
+        color: yellow;
+        }
+    
     .about-text h4 span{
         color: brown;
     }
     .about-text p{
-        margin: 20px 0 40px;
+        background-color: rgb(137, 68, 139);
+        background: 0.3;
+        paddi
+    }
+    .about-text p{
+        margin: 10px 0 40px;
         width: 100%;
         max-width: 550px;
         font-size: large;
@@ -120,13 +129,26 @@ header{
         line-height: 35px;
         color: rgb(60, 247, 13);
     }
-    .interests{
-        padding-left: 100px;
+    .middle-text h5{
+        font-size: x-large;
+        font-weight: 700;
 
     }
     .interests h5{
         font-size: x-large;
         font-weight: 600;
+    }
+    .middle-text p{
+        background-color: cornsilk;
+        color: blue;
+    }
+    .middle-text p{
+        margin: 10px 0 40px;
+        width: 100%;
+        max-width: 550px;
+        font-size: large;
+        font-weight: 500;
+        line-height: 35px;
     }
     .interests p span{
         color: orangered;
